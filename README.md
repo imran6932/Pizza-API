@@ -1,6 +1,9 @@
 # Pizza-API-DRF
-Pizza API Based on Django REST Framework.
-User can Create, List, Update, Delete and Filter API of Pizza
+### Pizza API Based on Django REST Framework.
+### User can Create, List, Update, Delete and Filter API of Pizza
+## Third Party Package
+- django-filter
+
 
 
 ## API EndPoints
@@ -10,7 +13,7 @@ User can Create, List, Update, Delete and Filter API of Pizza
 - Filter Pizza by pizza type and pizza size:- localhost:8000/pizza/list?pizza_type=Regular&pizza_size=Large 
 
 
-#### Notes: 
+### Notes: 
 -(*All Endpoints have tested with Postman And Django REST Browsable API*)
 - (*dont't forget to add slash in last of every Endpoints except Filter endpoint.*)
 - (*Create API endpoints http method POST*)
